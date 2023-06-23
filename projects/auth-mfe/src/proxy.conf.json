@@ -1,0 +1,6 @@
+{
+  "/remote-assets": {
+    "target": "http://localhost:4200/assets",
+    "secure": false
+  }
+}

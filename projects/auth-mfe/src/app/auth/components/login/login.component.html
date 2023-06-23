@@ -1,9 +1,41 @@
+<!-- <app-container> -->
 <p>login works!</p>
 <button (click)="login()">Login</button>
 
 <div class="row">
-    <div class="col-lg-3 col-md-5 col-sm-12" style="background-color: red;">Test</div>
-    <div class="col-lg-3 col-md-5 col-sm-12" style="background-color: red;">Test 2</div>
+  <div class="col-lg-3 col-md-5 col-sm-12">
+    {{ "one" | translate }}
+  </div>
+  <div class="col-lg-3 col-md-5 col-sm-12">Test 2</div>
 </div>
 
 <button mat-raised-button color="primary">Primary</button>
+<app-auth-input> </app-auth-input>
+<div>{{ "test" | customSpacer }}</div>
+<div class="text-error font-gothan">Hi</div>
+<mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon>
+<!-- <img src="assets/img2.jpg" /> -->
+<!-- </app-container> -->
+<mat-form-field>
+  <mat-label>Favorite food</mat-label>
+  <mat-select>
+    <mat-option [value]="1" class="clamp-line-options">
+      food.viewValue  food.viewValue  food.viewValue  food.viewValue  food.viewValue  food.viewValue  food.viewValue  food.viewValue  food.viewValue  food.viewValue
+    </mat-option>
+    <mat-option [value]="2" class="clamp-line-options">
+      food.viewValue
+    </mat-option>
+    <mat-option [value]="3" class="clamp-line-options">
+      food.viewValue
+    </mat-option>
+    <mat-option [value]="4" class="clamp-line-options">
+      food.viewValue
+    </mat-option>
+    <mat-option [value]="5" class="clamp-line-options">
+      food.viewValue
+    </mat-option>
+    <mat-option [value]="6" class="clamp-line-options">
+      food.viewValue
+    </mat-option>
+  </mat-select>
+</mat-form-field>
